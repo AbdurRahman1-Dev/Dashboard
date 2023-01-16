@@ -99,9 +99,12 @@ nav a{
   border-right: 2px solid #EDEFF2;
   height: 100%;
 }
-.left-nav .flex{
-  flex-direction: column;
-  justify-content: space-between;
+
+.left-nav .flex {
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 100%;
 }
 
 
@@ -109,11 +112,11 @@ nav a{
 .dashboard-top{
   padding: 30px 0px;
 }
-.dashboard .flex{
+.dashboard-top, .borards, .amounts {
   justify-content: space-between;
   align-items: center;
 }
-.numbers h4{
+.numbers, .transition h4{
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -193,6 +196,7 @@ nav a{
   height: 450px;
   background-color: #FF782C;
   padding: 40px;
+  margin-bottom: 10px;
  }
 
  .card-section h4{
@@ -214,10 +218,77 @@ nav a{
 }
 
 
+.total-amount p{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 60px;
+  color: #FFFFFF;
+  }
+
+.amounts{
+  padding: 40px 0px;
+}
+
+.amounts h5{
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+
+.amounts p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 10px 0px;
+  color: #6B7A99;
+}
 
 
 
 
+
+
+
+/* right card */
+
+.white{
+  background-color: #ffff;
+}
+
+.date{
+  align-content: flex-end;
+}
+.transition{
+  justify-content: space-between;
+}
+.transition h4{
+  color: gray;
+}
+
+.date h4{
+  padding:10px 20px;
+  background-color: #fff;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6B7A99;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.cash img{
+  width: 465px;
+}
+
+.apps img{
+  width: 100%;
+}
+
+.right-board {
+	align-self: flex-start;
+}
 
 
 /* right-bar */
